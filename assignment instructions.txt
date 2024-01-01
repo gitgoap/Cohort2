@@ -1,0 +1,7 @@
+1. Initially (it installs all dependencies): npn install 
+2. 'cd' to the questions folder. For example (In 1st assignment)- cd 01-js
+3. To test:
+
+ a. One problem run: npx jest ./tests/path
+
+ b. All problems in one go: npx jest ./test/

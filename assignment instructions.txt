@@ -1,4 +1,4 @@
-1. Initially (it installs all dependencies): npn install 
+1. Initially (it installs all dependencies) inside 01-js dir: npm install 
 2. 'cd' to the questions folder. For example (In 1st assignment)- cd 01-js
 3. To test:
 

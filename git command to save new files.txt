@@ -19,6 +19,6 @@ Note: If a branch is made and pushed for raising PR then we always have to go to
 8. To make folder: mkdir foldername
 9. To open vscode while working on gitbash: code .
 10. To give git command after git log command and bash is stuck: press q untill cursor is seen
-
+11. To go to main dir: cd ..
 
 

@@ -12,12 +12,13 @@ From Rahul Singh Video
 2. To make a branch and get into it: git checkout -b branch-name 13:00
 3. To again get into main branch: git checkout -b master
 4. To get info about all branches: git log 15:29
-5. To upadte the repo: git pull16:30
+5. To upadte the repo: git pull 16:30
 6. To know the github link of repo: git remote -v 21:34
 Note: If a branch is made and pushed for raising PR then we always have to go to github to push the changes from that branch to main.
 7. To know what's in the folder:ls
 8. To make folder: mkdir foldername
 9. To open vscode while working on gitbash: code .
+10. To give git command after git log command and bash is stuck: press q untill cursor is seen
 
 
 

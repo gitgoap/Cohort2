@@ -1,0 +1,19 @@
+-------------------------Bash command(Using WSL)---------------------------
+Some command like ls, etc don't work in window's CMD but works in window's powershells
+====================<These were all covered in week 2.3 video>====================
+
+1. pwd - prints working directory
+2. ls - list all directories in current dir
+3. cd - change directory | cd dir_namecd dir_name
+4. cd .. - Jumps to previous dir
+5. mkdir - make new directory | mkdir dir_name
+6. cat - Let us see contents of the file
+         Example: cat index.js or cat 'big file.txt' // when space present use ''
+7. touch - Used to create file (not dir)
+           Example: touch index.js
+8. vi - vim command (can only use if vim IDE is installed) 
+9. mv - move file | mv file name path //Suppose we are desktop and destop contains one dir nmaed temp then path will be temp
+10. cp - Copy file | cp filename path or,
+                     cp -r foldername path
+11. ls -a .. - To see hidden files
+node - to run nodejs inside type node then we can run js code and to exit this mode press CTRL+C

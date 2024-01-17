@@ -1,11 +1,24 @@
-const express = require('express')
-const app = express()
-const port = 3000
+const express = require('express');
+const app=express();
 
-app.get('/', function(req, res) {
-  res.send('Hello World!')
-})
+const user = [{
+   name:"John",
+   kidney:[{
+      healthy:true
+   }]
+}];
 
-app.listen(port, function() {
-  console.log(`Example app listening on port ${port}`)
+app.get("/test",function(req,res){
+   const nfk=user[0].kidney.length;
+   const nfhk=user[0].kidney[0].healthy;
+   const nfuk=nfk-nfhk;
+
+   res.json({
+      nfk,
+      nfhk,
+      nfuk
+
+   })
+   res.send("Hello barik"); 
 })
+app.listen(6200);

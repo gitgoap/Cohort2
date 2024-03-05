@@ -4,6 +4,10 @@ git status
 git commit -m "message"
 git push -u -f origin master
 
+------------------------------------------------------
+* Very Important
+
+
 
 
 ---------------------------------------------------------
@@ -11,7 +15,7 @@ From Rahul Singh Video 1
 
 1. To see changes done (saved):git diff 11:02
 2. To make a branch and get into it: git checkout -b branch-name 13:00
-3. To again get into main branch: git checkout -b master
+3. To again get into main branch: git checkout master
 4. To get info about all branches: git log 15:29
 5. To upadte the repo: git pull 16:30
 6. To know the github link of repo or origin link: git remote -v 21:34
@@ -27,7 +31,12 @@ Note: To push from branch: git push origin branchname
 ---------------------------------------------------------
 Rahul Singh Video 2 
 
-1. To pull: git push origin main or git push <remote_name> <branch_name>
+*1. To update the local repo as remote(forked) repo:  git pull <remote_name> <branch_name>
+             Eg- git pull origin main
+
+---------------------------------------------------------
+1. To revert all changes in a file: git checkout -- <filename>
+Eg- git checkout -- styles.css
 
 
 
